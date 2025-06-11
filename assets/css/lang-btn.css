@@ -1,0 +1,56 @@
+  #google_translate_element {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+  }
+
+  .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+  }
+
+  body {
+    top: 0px !important;
+  }
+
+  .goog-logo-link {
+    display: none !important;
+  }
+
+  .goog-te-gadget {
+    font-size: 0px;
+  }
+
+  .goog-te-gadget .goog-te-combo {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  /* Hide Google branding and spacing */
+.goog-logo-link {
+  display: none !important;
+}
+.goog-te-gadget {
+  font-size: 0px !important;
+}
+.goog-te-gadget .goog-te-combo {
+  font-size: 14px !important;
+  padding: 5px;
+}
+
+
+
+.lang-btn {
+  background: transparent;
+  color: #aa9494;
+  border: 2px solid #fff;
+  /* padding: 5px 12px; */
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.lang-btn:hover {
+  background: #fff;
+  color: #000;
+}
